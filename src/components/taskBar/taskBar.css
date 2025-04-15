@@ -1,0 +1,25 @@
+.taskbar-main-icons {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    height: 100%;  /* Add this */
+}
+
+.taskbar-main-icons .taskbar-icon {
+    display: flex;
+    align-items: center;
+    height: 100%;  /* Add this */
+}
+
+.taskbar-main-icons .uk-flex {
+    height: 100%;  /* Add this */
+}
+
+@media (max-width: 768px) {
+    .taskbar-main-icons {
+        position: static;
+        transform: none;
+    }
+}
