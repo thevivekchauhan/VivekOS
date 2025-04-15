@@ -1,6 +1,7 @@
 <h1 align="center">
   <br>
 thevivekchauhanos.vercel.app
+   <a href="thevivekchauhanos.vercel.app">Live</a> •
   <br>
   Portfolio OS Theme - Windows
   <br>
