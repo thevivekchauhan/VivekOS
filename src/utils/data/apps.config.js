@@ -1,4 +1,5 @@
 import AboutMe from "../../components/applications/about/aboutMe.about";
+import blogs from "../../components/blogs/blogs";
 import ContactMe from "../../components/applications/about/contactMe.about";
 import Education from "../../components/applications/about/education.about";
 import Experience from "../../components/applications/about/experience.about";
@@ -7,18 +8,19 @@ import Resume from "../../components/applications/about/resume.about";
 import Skills from "../../components/applications/about/skills.about";
 import Chrome from "../../components/applications/chrome.application";
 import JIOSaavn from "../../components/applications/jiosaavn.application";
-import Mail from "../../components/applications/mail.application";
+// import Mail from "../../components/applications/mail.application";
 import SpreadsheetApp from "../../components/applications/spreadsheet.application";
 import VSCode from "../../components/applications/vscode.application";
 import Word from "../../components/applications/document.application";
 import aboutMe from "../../assets/images/apps/aboutMe.png";
 import chrome from "../../assets/images/apps/chrome.svg";
 import jioSaavn from "../../assets/images/apps/jioSaavn.png";
-import mail from "../../assets/images/apps/mail.png";
+// import mail from "../../assets/images/apps/mail.png";
 import word from "../../assets/images/apps/word.svg";
 import spreadsheet from "../../assets/images/apps/spreadsheet.svg";
 import vsCode from "../../assets/images/apps/vsCode.png";
 import settings from "../../assets/images/apps/settings.svg";
+import blogsimg from "../../assets/images/apps/travelvlog.png";
 import BackgroundSettings from "../../components/applications/settings/background.settings";
 
 const appConfig = [
@@ -77,6 +79,21 @@ const appConfig = [
 		],
 	},
 	{
+		id: "blogs",
+		name: "blogs",
+		order: 2,
+		icon: blogsimg,
+		isApplication: true,
+		showInDesktop: true,
+		showLinks: true,
+		subComponent: [
+			{
+				name: "blogs",
+				component: blogs,
+			},
+		],
+	},
+	{
 		id: "jioSaavn",
 		name: "JIO Saavn",
 		order: 3,
@@ -91,21 +108,21 @@ const appConfig = [
 			},
 		],
 	},
-	{
-		id: "mail",
-		name: "Contact Me",
-		order: 4,
-		icon: mail,
-		isApplication: true,
-		showInDesktop: true,
-		showLinks: true,
-		subComponent: [
-			{
-				name: "mail",
-				component: Mail,
-			},
-		],
-	},
+	// {
+	// 	id: "mail",
+	// 	name: "Contact Me",
+	// 	order: 4,
+	// 	icon: mail,
+	// 	isApplication: true,
+	// 	showInDesktop: true,
+	// 	showLinks: true,
+	// 	subComponent: [
+	// 		{
+	// 			name: "mail",
+	// 			component: Mail,
+	// 		},
+	// 	],
+	// },
 	{
 		id: "chrome",
 		name: "Chrome",
