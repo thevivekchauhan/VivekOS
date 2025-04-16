@@ -75,17 +75,18 @@ const user = {
 	education: [
 		{
 			instituteName: "K.S.V Gandhinagar",
-			degree: "Bechelor's Of Computer Application (BCA)",
-			year: "2022",
+			degree: "Bachelor's of Computer Application (BCA). Focused on fundamental computer science subjects including programming, database management, and networking. In addition, I have gained practical experience in web development and design.",
+			year: "2019 - 2022",
 			id: 2,
 		},
 		{
 			instituteName: "G.L.S Ahmedabad",
-			degree: "Master of Science in Information Technology (M.Sc IT)",
-			year: "2026",
+			degree: "Master of Science in Information Technology (M.Sc IT). Currently pursuing advanced topics such as machine learning, and full-stack development. I am also gaining hands-on experience in web development and design.",
+			year: "2024 - 2026",
 			id: 3,
 		},
 	],
+	
 	projects: [
 		{
 			projectName: "Find government job",

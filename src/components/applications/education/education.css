@@ -1,0 +1,103 @@
+.education-container {
+    padding: 20px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.education-container h2 {
+    margin-bottom: 20px;
+    color: #4dabf7;
+    text-align: center;
+}
+
+.education-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.education-item {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+    backdrop-filter: blur(10px);
+}
+
+.education-card {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 20px;
+    backdrop-filter: blur(5px);
+}
+
+.institute-name {
+    color: #fff;
+    margin-bottom: 10px;
+    font-size: 1.2rem;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.edu-header h3 {
+    color: #4dabf7;
+    margin: 0;
+}
+
+.year {
+    color: #adb5bd;
+    font-size: 0.9rem;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.edu-body {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.degree {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #ced4da;
+}
+
+.year, .location, .cgpa {
+    color: #adb5bd;
+    font-size: 0.9rem;
+}
+
+.description {
+    color: #ced4da;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+    .education-container {
+        padding: 15px;
+    }
+    
+    .education-item {
+        padding: 15px;
+    }
+    
+    .education-card {
+        padding: 15px;
+    }
+    
+    .institute-name {
+        font-size: 1.1rem;
+    }
+}
