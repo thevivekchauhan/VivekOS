@@ -42,7 +42,7 @@
   
   .window-content {
     padding: 20px;
-    background-color: black;
+    background-color: whitesmoke;
   }
   
   /* User Profile Styles */
@@ -261,3 +261,4 @@
       grid-template-columns: repeat(3, 1fr);
     }
   }
+  
