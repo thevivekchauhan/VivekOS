@@ -3,7 +3,8 @@ import React from "react";
 import { useSelector } from "react-redux";
 import ClockComponent from "../base/clockComponent";
 import TaskBarIcon from "./taskBar-Icon";
-import './taskBar.css';  // Add this import
+import './taskBar.css';
+import windows10Logo from '../../assets/images/baseImages/VC.png';  // Add this import
 
 function Taskbar(props) {
     const settings = useSelector((state) => state.settingsState);
@@ -13,11 +14,12 @@ function Taskbar(props) {
             {/* Centered Icons */}
             <div className="taskbar-main-icons">
                 <div className="uk-height-1-1 taskbar-icon" uk-toggle="target: #start-menu">
-                    <IconButton
-                        iconProps={{ iconName: "WindowsLogo" }}
+                    <img 
+                        src={windows10Logo} 
+                        alt="Start" 
                         title="Start"
-                        ariaLabel="Start"
-                        className="uk-height-1-1 taskbar-icon"
+                        className="uk-height-1-1 taskbar-icon windows-logo"
+                        style={{ padding: '5px', cursor: 'pointer' }}
                     />
                 </div>
                 <div className="uk-height-1-1" uk-toggle="target: #start-menu">
