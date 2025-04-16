@@ -22,6 +22,8 @@ import settings from "../../assets/images/apps/settings.svg";
 import BackgroundSettings from "../../components/applications/settings/background.settings";
 import Blogs from "../../components/blogs/blogs";
 import blogsimg from "../../assets/images/apps/travelvlog.png";
+import VideoPlayer from "../../components/applications/videosection/video.application.jsx";
+import vlcIcon from "../../assets/images/apps/vlc.png";
 
 
 const appConfig = [
@@ -91,6 +93,21 @@ const appConfig = [
 			{
 				name: "blogs",
 				component: Blogs,
+			},
+		],
+	},
+	{
+		id: "videoplayer",
+		name: "Vlogs",
+		order: 4,
+		icon: vlcIcon,
+		isApplication: true,
+		showInDesktop: true,
+		showLinks: true,
+		subComponent: [
+			{
+				name: "Video Player",
+				component: VideoPlayer,
 			},
 		],
 	},

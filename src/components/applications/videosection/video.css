@@ -1,0 +1,94 @@
+body {
+    background-color: #121212;
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .video-player-container {
+    padding: 2rem;
+    min-height: 100vh;
+    background-color: #121212;
+  }
+  
+  .title {
+    text-align: center;
+    color: #ff9800;
+    margin-bottom: 2rem;
+    font-size: 2rem;
+  }
+  
+  .video-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+  }
+  
+  .video-card {
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    padding: 1rem;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .video-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .thumbnail-wrapper {
+    position: relative;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .thumbnail {
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+  }
+  
+  .play-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2.5rem;
+    color: white;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px 15px;
+    border-radius: 50%;
+  }
+  
+  .video-title {
+    margin-top: 0.8rem;
+    font-size: 1rem;
+    color: white;
+  }
+  
+  .video-description {
+    font-size: 0.9rem;
+    color: #ccc;
+    margin-top: 0.4rem;
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1.5rem;
+    }
+  
+    .video-title {
+      font-size: 1rem;
+    }
+  
+    .video-description {
+      font-size: 0.85rem;
+    }
+  
+    .play-button {
+      font-size: 2rem;
+    }
+  }
+  

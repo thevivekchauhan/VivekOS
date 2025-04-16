@@ -10,6 +10,7 @@ import blog5 from "../../assets/images/blogs/cars/ElectricCarsRevolution.webp";
 import blog6 from "../../assets/images/blogs/business/BusinessStrategies.webp";
 
 function Blogs() {
+    // Sample blog data with categories
     const blogPosts = [
         {
             id: 1,
@@ -248,6 +249,9 @@ Bottom line? Whether you're upgrading your laptop or trying out a new gadget, st
                         <h2 className="user-name">
                             Hey, I'm Vivek Chauhan
                         </h2>
+                        {user.aboutMe.intro && (
+                            <p className="user-intro">{user.aboutMe.intro}</p>
+                        )}
                     </div>
                 </div>
 
