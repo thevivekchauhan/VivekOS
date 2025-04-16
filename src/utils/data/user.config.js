@@ -1,8 +1,8 @@
 import ResumePDF from "./Vivek-Resume.pdf";
 import default_avatar from "../../assets/images/baseImages/default_avatar.svg";
-import KloudGin from ".././../assets/images/data/KloudGin.png";
-import Freelance from ".././../assets/images/data/Freelance.png";
-import PayPal from ".././../assets/images/data/PayPal.jpeg";
+import KloudGin from ".././../assets/images/data/bitbeast.jpg";
+import Freelance from ".././../assets/images/data/Freelance2.png";
+import PayPal from ".././../assets/images/data/icoderz.webp";
 
 const user = {
 	firstName: "Vivek",
@@ -21,159 +21,145 @@ const user = {
 	},
 	experiences: [
 		{
-			organization: "PayPal",
+			organization: "Iconderz",
 			organizationPicture: PayPal,
 			isCurrent: true,
-			startDate: "Oct 2021",
+			startDate: "April 2025",
 			endDate: null,
 			positions: [
 				{
-					positionName: "Software Engineer 2",
-					startDate: "Oct 2021",
+					positionName: "Laravel Developer",
+					startDate: "April 2025",
 					endDate: " Present",
 					isPresent: true,
 					description:
-						"Working as part of the Identity Engineering Team, responsible for the development and maintaining login scenarios in Web and Native experiences. Implemented a long-term architecture for platform convergence in existing node modules, automating tenant onboarding and reducing onboarding time significantly. Migrated legacy C++ components to Node modules with updated UI, improving performance and design aesthetics. Developed an internal tool tailored for efficient upgrades and verification of internal framework versions across multiple micro-services, saving manual effort and reducing the risk of errors. Technologies: ReactJS, JavaScript, Node, GraphQL, Java, RESTful web services, Swift, MySQL",
+						"Working as part of the Team, responsible for the development experiences.",
 				},
 			],
 		},
 		{
-			organization: "KloudGin",
+			organization: "Bitbeast",
 			organizationPicture: KloudGin,
 			isCurrent: false,
-			startDate: "Jun 2019",
-			endDate: "Oct 2021",
+			startDate: "Oct 2023",
+			endDate: "Sep 2024",
 			positions: [
 				{
-					positionName: "Software Engineer",
-					startDate: "May 2021",
-					endDate: " Present",
+					positionName: "Web Developer",
+					startDate: "Oct 2023",
+					endDate: " Sep 2024",
 					isPresent: true,
 					description:
-						"During this time, I worked on the redesigning and development of the new UI for the product using AngularJS.I also developed multiple APIs to support the GIS feature and also worked on the configuration of the GIS in the product.",
-				},
-				{
-					positionName: "Associate Software Engineer",
-					startDate: "May 2020",
-					endDate: "April 2021",
-					isPresent: false,
-					description:
-						"During this time, I designed and developed multiple APIs for the EAM Module and Inventory Management Module. For the EAM module, I also developed and implemented APIs for supporting new features in the product such as Asset Criticality, Purchase Order, and Material Order modules.",
-				},
-				{
-					positionName: "Trainee Engineer",
-					startDate: "June 2019",
-					endDate: "April 2020",
-					isPresent: false,
-					description:
-						"During this time, I developed and implemented the User Management Module including the development of the supporting APIs and configuration of the UI for the dashboard using Java and KloudGin Platform. I also worked on the API documentation using Swagger API.",
+						"Working on live projects has honed my problem-solving abilities and deepened my understanding of real-world application development . Guidance from senior team members has allowed me to refine my skills and adopt best practices in frontend development . I continuously strive to enhance my skill set by staying updated with emerging frontend technologies and industry trends . In addition to my frontend development skills, I create engaging vlogs that provide insights into company projects and team achievements.",
 				},
 			],
 		},
 		{
-			organization: "Freelance Developer",
-			startDate: "2017",
-			endDate: "2019",
+			organization: "Freelancer",
+			startDate: "2023",
+			endDate: "Present",
 			organizationPicture: Freelance,
 			isCurrent: false,
 			positions: [
 				{
-					positionName: "Fullstack Developer",
-					startDate: "2017",
-					endDate: "2019",
+					positionName: "Web Developer, Video Editor, and Graphic Designer",
+					startDate: "2024",
+					endDate: " Present",
 					isPresent: false,
 					description:
-						"I was a freelance developer during my Bachelor's degree where I worked with different established companies like Prelude, Ediolon and Youngster's Worldwide.",
+						"I am a freelance developer where I develop personalized websites with a responsive layout for desktops, tablets, and smartphones. My expertise includes designing eye-catching banners, logos, and cartoon images. I also take on video editing projects, enhancing visuals with a professional touch. I am proficient in using tools like Adobe Photoshop, Adobe Illustrator, and Adobe Premiere Pro to create stunning graphics and videos. My goal is to deliver high-quality work that meets my clients' needs and exceeds their expectations. I am dedicated to providing exceptional service and building long-lasting relationships with my clients. I am always open to new opportunities and challenges, and I look forward to collaborating with you on your next project.",
 				},
 			],
 		},
 	],
 	education: [
 		{
-			instituteName:
-				"ITER, Siksha 'O' Anusandhan (Deemed to be University)",
-			degree: "Bachelor's Degree in Computer Science and Engineering",
-			year: "2019",
-			id: 1,
-		},
-		{
-			instituteName: "O.D.M. Public School, Bhubaneswar",
-			degree: "Intermediate",
-			year: "2015",
+			instituteName: "K.S.V Gandhinagar",
+			degree: "Bechelor's Of Computer Application (BCA)",
+			year: "2022",
 			id: 2,
 		},
 		{
-			instituteName: "Prabhujee English Medium School, Bhubaneswar",
-			degree: "Matriculation",
-			year: "2013",
+			instituteName: "G.L.S Ahmedabad",
+			degree: "Master of Science in Information Technology (M.Sc IT)",
+			year: "2026",
 			id: 3,
 		},
 	],
 	projects: [
 		{
-			projectName: "MyShop",
+			projectName: "Find government job",
 			description:
-				"A customizable eCommerce website where the user can customize different components of the application.",
-			madeWith: ["React", "Node", "Firebase", "Firestore"],
-			link: "hhttps://github.com/srinibasbiswal/My-Shop",
+				"The purpose of this website is to serve as a centralized platform for individuals seeking employment opportunities within government agencies at various levels, including local, state, and federal.",
+			madeWith: ["HTML", "CSS"],
+			link: "https://thevivekchauhan.github.io/GovHub/index.html",
+			openInNewTab: true
 		},
 		{
-			projectName: "NoteStack",
+			projectName: "Jewellery Website",
 			description:
-				"A notes management platform/application where students can share their course notes easily with each other.",
-			madeWith: ["React", "Java", "Firebase", "Firestore"],
-			link: "https://github.com/srinibasbiswal/NoteStack",
+				"I've designed my portfolio to present my expertise, past projects, and experiences in an attractive format, offering potential employers and clients a detailed look at my capabilities and accomplishments.",
+			madeWith: ["HTML", "CSS"],
+			link: "https://thevivekchauhan.github.io/sonu/index.html",
+			openInNewTab: true
 		},
 		{
-			projectName: "Bus Management",
+			projectName: "vivekpassx",
 			description:
-				"A bus management system for ITER, BBSR which helps to know different bus routes and makes easy to decode which route to take.",
-			madeWith: ["Python", "TKinter", "Firebase"],
-			link: "https://iter-bus.firebaseapp.com/",
+				"I have developed this website to help how strong your password is. It is a password strength checker tool that helps you to create a strong password. It is a free online tool that helps you to create a strong password.",
+			madeWith: ["React", "HTML", "CSS", "JavaScript"],
+			link: "https://vivekpassx.netlify.app/",
+			openInNewTab: true
 		},
 		{
-			projectName: "Seat Swapper",
+			projectName: "vivekcodex",
 			description:
-				"A train seat swapping system where we can get our desired train seat without any extra payment. This was a project for IBS hackathon.",
+				"I have developed this website to help you send secret messages securely. Whether it's for your friends, partner (GF, BF), or siblings, you can share coded messages that only those who know this website can understand, so share the link. Keep your conversations private and secure.",
 			madeWith: [
-				"Java",
-				"MySQL",
-				"BlockChain",
 				"HTML",
 				"CSS",
 				"JavaScript",
+				"React"
 			],
-			link: "https://github.com/srinibasbiswal/IBS-Hackathon",
+			link: "https://vivekcodex.netlify.app/",
+			openInNewTab: true
 		},
 		{
-			projectName: "Flight Ticket Saver",
+			projectName: "vivekportfoliox",
 			description:
-				"A flight booking system which was dealing with the bumping of seats with the help of Etherium Smart Contract. This was a project for IATA Hackathon.",
-			madeWith: ["Python", "DJANGO", "HTML", "CSS", "JavaScript"],
-			link: "https://github.com/srinibasbiswal/IATA-Hackathon",
-		},
+				"You can create your portfolio using this website in just four simple steps. Follow the process & your beautiful portfolio!",
+			madeWith: ["HTML", "CSS", "JavaScript"],
+			link: "https://vivekportfoliox.netlify.app/",
+			openInNewTab: true
+		}
 	],
 	skills: [
 		{
 			name: "Language Proficiency",
 			values: [
-				"ReactJS",
-				"JavaScript",
-				"Node",
-				"Python",
-				"Java",
-				"Firebase",
+				"React JS",
 				"HTML",
+				"JavaScript",
 				"CSS",
+				"PHP",
+				"Laravel",
 			],
 		},
 		{
-			name: "Tools/IDE Proficiency",
-			values: ["VSCode","XCode","Git", "PyCharm", "Eclipse", "IntelliJ IDEA", "Postman"],
+			name: "Tools/IDE",
+			values: ["VSCode","Git","Postman"],
 		},
 		{
-			name: "Database Proficiency",
-			values: ["MySQL", "MongoDB", "Firestore"],
+			name: "Database",
+			values: ["MySQL", "Laravel" ],
+		},
+		{
+			name: "Games",
+			values: ["Chess", "Carrom" ],
+		},
+		{
+			name: "Graphic Design",
+			values: ["Logo", "Banner","Portfolio" ],
 		},
 	],
 };
