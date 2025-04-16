@@ -1,5 +1,4 @@
 import AboutMe from "../../components/applications/about/aboutMe.about";
-import blogs from "../../components/blogs/blogs";
 import ContactMe from "../../components/applications/about/contactMe.about";
 import Education from "../../components/applications/about/education.about";
 import Experience from "../../components/applications/about/experience.about";
@@ -14,14 +13,16 @@ import VSCode from "../../components/applications/vscode.application";
 import Word from "../../components/applications/document.application";
 import aboutMe from "../../assets/images/apps/aboutMe.png";
 import chrome from "../../assets/images/apps/chrome.svg";
-import jioSaavn from "../../assets/images/apps/jioSaavn.png";
+import jioSaavn from "../../assets/images/apps/jio.png";
 // import mail from "../../assets/images/apps/mail.png";
 import word from "../../assets/images/apps/word.svg";
 import spreadsheet from "../../assets/images/apps/spreadsheet.svg";
 import vsCode from "../../assets/images/apps/vsCode.png";
 import settings from "../../assets/images/apps/settings.svg";
-import blogsimg from "../../assets/images/apps/travelvlog.png";
 import BackgroundSettings from "../../components/applications/settings/background.settings";
+import Blogs from "../../components/blogs/blogs";
+import blogsimg from "../../assets/images/apps/travelvlog.png";
+
 
 const appConfig = [
 	{
@@ -89,7 +90,7 @@ const appConfig = [
 		subComponent: [
 			{
 				name: "blogs",
-				component: blogs,
+				component: Blogs,
 			},
 		],
 	},
