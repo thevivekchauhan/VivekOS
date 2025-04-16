@@ -28,12 +28,13 @@ function Taskbar(props) {
                         className="uk-height-1-1 taskbar-icon"
                     />
                 </div>
-                <div className="uk-height-1-1">
+                <div className="uk-height-1-1" uk-toggle="target: #cortana-modal">
                     <IconButton
                         iconProps={{ iconName: "DelveAnalytics" }}
-                        title="Cortana"
-                        ariaLabel="Cortana"
+                        title="Virtual Assistant"
+                        ariaLabel="Virtual Assistant"
                         className="uk-height-1-1 taskbar-icon"
+                        onClick={() => document.getElementById('cortana-modal').classList.add('show')}
                     />
                 </div>
                 <div className="uk-flex uk-height-1-1">
