@@ -20,7 +20,7 @@ function Taskbar(props) {
                         className="uk-height-1-1 taskbar-icon"
                     />
                 </div>
-                <div className="uk-height-1-1">
+                <div className="uk-height-1-1" uk-toggle="target: #start-menu">
                     <IconButton
                         iconProps={{ iconName: "Search" }}
                         title="Search"
