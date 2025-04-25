@@ -1,8 +1,9 @@
 <h1 align="center">
   <br>
    <a href="thevivekchauhanos.vercel.app">Live</a> 
+   <a href="https://vivekos-vivekos-projects.vercel.app/">Live</a> 
   <br>
-  Portfolio OS Theme - Windows
+  Portfolio OS Theme - Windows 
   <br>
 </h1>
 
@@ -10,7 +11,7 @@
 
 
 <p align="center">
-  <a href="#installation">Installation</a> •
+  <a href="#installation">Installation</a> • 
   <a href="#customization">Customization</a> •
   <a href="#contributing">Contributing</a> •
   <a href="#license">License</a> •
