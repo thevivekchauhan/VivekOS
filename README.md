@@ -9,7 +9,6 @@
 
 <h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
-
 <p align="center">
   <a href="#installation">Installation</a> • 
   <a href="#customization">Customization</a> •
@@ -20,10 +19,6 @@
 
 
 ## Installation
-
-
-# Go into the repository
-$ cd Portfolio_OS_Theme
 
 # Install dependencies
 $ npm install
