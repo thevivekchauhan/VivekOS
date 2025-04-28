@@ -13,7 +13,6 @@
   <a href="#installation">Installation</a> • 
   <a href="#customization">Customization</a> •
   <a href="#contributing">Contributing</a> •
-  <a href="#license">License</a> •
 </p>
 
 
