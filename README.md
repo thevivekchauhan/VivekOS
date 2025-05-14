@@ -1,23 +1,28 @@
 <h1 align="center">
   <br>
-   <a href="thevivekchauhanos.vercel.app">Live</a> 
-   <a href="https://vivekos-vivekos-projects.vercel.app/">Live</a> 
+
   <br>
-  Portfolio OS Theme - Windows 
+  Portfolio OS Theme - Windows
   <br>
 </h1>
 
 <h4 align="center">A customizable portfolio website based on Microsoft Windows 10 theme.</h4>
 
+
 <p align="center">
-  <a href="#installation">Installation</a> • 
+  <a href="#installation">Installation</a> •
   <a href="#customization">Customization</a> •
   <a href="#contributing">Contributing</a> •
+  <a href="#license">License</a> •
 </p>
 
 
 
 ## Installation
+
+
+# Go into the repository
+$ cd Portfolio_OS_Theme
 
 # Install dependencies
 $ npm install

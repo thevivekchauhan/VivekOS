@@ -8,7 +8,7 @@ import Skills from "../../components/applications/about/skills.about";
 import Chrome from "../../components/applications/chrome.application";
 import JIOSaavn from "../../components/applications/jiosaavn.application";
 // import Mail from "../../components/applications/mail.application";
-// import SpreadsheetApp from "../../components/applications/spreadsheet.application";
+import SpreadsheetApp from "../../components/applications/spreadsheet.application";
 import VSCode from "../../components/applications/vscode.application";
 import Word from "../../components/applications/document.application";
 import aboutMe from "../../assets/images/apps/aboutMe.png";
@@ -16,7 +16,7 @@ import chrome from "../../assets/images/apps/chrome.svg";
 import jioSaavn from "../../assets/images/apps/jio.png";
 // import mail from "../../assets/images/apps/mail.png";
 import word from "../../assets/images/apps/word.svg";
-// import spreadsheet from "../../assets/images/apps/spreadsheet.svg";
+import spreadsheet from "../../assets/images/apps/spreadsheet.svg";
 import vsCode from "../../assets/images/apps/vsCode.png";
 import settings from "../../assets/images/apps/settings.svg";
 import BackgroundSettings from "../../components/applications/settings/background.settings";
@@ -171,21 +171,21 @@ const appConfig = [
 			},
 		],
 	},
-	// {
-	// 	id: "spreadsheet",
-	// 	name: "Spreadsheet",
-	// 	order: 7,
-	// 	icon: spreadsheet,
-	// 	isApplication: true,
-	// 	showInDesktop: true,
-	// 	showLinks: true,
-	// 	subComponent: [
-	// 		{
-	// 			name: "spreedsheet",
-	// 			component: SpreadsheetApp,
-	// 		},
-	// 	],
-	// },
+	{
+		id: "spreadsheet",
+		name: "Spreadsheet",
+		order: 7,
+		icon: spreadsheet,
+		isApplication: true,
+		showInDesktop: true,
+		showLinks: true,
+		subComponent: [
+			{
+				name: "spreedsheet",
+				component: SpreadsheetApp,
+			},
+		],
+	},
 	{
 		id: "settings",
 		name: "Settings",

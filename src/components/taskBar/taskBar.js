@@ -3,8 +3,7 @@ import React from "react";
 import { useSelector } from "react-redux";
 import ClockComponent from "../base/clockComponent";
 import TaskBarIcon from "./taskBar-Icon";
-import './taskBar.css';
-import windows10Logo from '../../assets/images/baseImages/VC.png';  // Add this import
+import './taskBar.css';  // Add this import
 
 function Taskbar(props) {
     const settings = useSelector((state) => state.settingsState);
@@ -14,15 +13,14 @@ function Taskbar(props) {
             {/* Centered Icons */}
             <div className="taskbar-main-icons">
                 <div className="uk-height-1-1 taskbar-icon" uk-toggle="target: #start-menu">
-                    <img 
-                        src={windows10Logo} 
-                        alt="Start" 
+                    <IconButton
+                        iconProps={{ iconName: "WindowsLogo" }}
                         title="Start"
-                        className="uk-height-1-1 taskbar-icon windows-logo"
-                        style={{ padding: '5px', cursor: 'pointer' }}
+                        ariaLabel="Start"
+                        className="uk-height-1-1 taskbar-icon"
                     />
                 </div>
-                <div className="uk-height-1-1" uk-toggle="target: #start-menu">
+                <div className="uk-height-1-1">
                     <IconButton
                         iconProps={{ iconName: "Search" }}
                         title="Search"
@@ -30,13 +28,12 @@ function Taskbar(props) {
                         className="uk-height-1-1 taskbar-icon"
                     />
                 </div>
-                <div className="uk-height-1-1" uk-toggle="target: #cortana-modal">
+                <div className="uk-height-1-1">
                     <IconButton
                         iconProps={{ iconName: "DelveAnalytics" }}
-                        title="Virtual Assistant"
-                        ariaLabel="Virtual Assistant"
+                        title="Cortana"
+                        ariaLabel="Cortana"
                         className="uk-height-1-1 taskbar-icon"
-                        onClick={() => document.getElementById('cortana-modal').classList.add('show')}
                     />
                 </div>
                 <div className="uk-flex uk-height-1-1">

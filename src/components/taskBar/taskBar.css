@@ -17,16 +17,6 @@
     height: 100%;  /* Add this */
 }
 
-.windows-logo {
-    width: auto;
-    height: 100%;
-    opacity: 0.9;
-}
-
-.windows-logo:hover {
-    opacity: 1;
-}
-
 @media (max-width: 768px) {
     .taskbar-main-icons {
         position: static;
